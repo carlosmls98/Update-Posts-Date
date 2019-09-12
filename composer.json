@@ -1,0 +1,19 @@
+{
+    "name": "onpointglobal/updatepostdate",
+    "description": "Update Wordpress posts date in range",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Carlos Morales",
+            "email": "calos.morales@bvmedia.cr"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "OnpointGlobal": "src/"
+        }
+    }
+}
