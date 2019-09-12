@@ -1,7 +1,6 @@
 <?php
 
 namespace OnpointGlobal;
-
 /**
  * Main Update Post Date.
  *
@@ -12,9 +11,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 
-
 use DateInterval;
 use DateTime;
+
+
+
 
 class UpdatePostDate
 {
@@ -48,7 +49,7 @@ class UpdatePostDate
     public function __construct($daterange = 'P14D',$datepost='2 weeks ago') {
 
         $this->datepost=$datepost;
-        
+
         $this->daterange=$daterange;
 
         add_action('update_date_post', array( $this, 'update_date_post' ));
