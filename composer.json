@@ -9,6 +9,7 @@
             "email": "calos.morales@bvmedia.cr"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": "^7.0"
     },
