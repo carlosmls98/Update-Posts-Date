@@ -2,6 +2,7 @@
     "name": "onpointglobal/updatepostdate",
     "description": "Update Wordpress posts date in range",
     "type": "library",
+    "license": "LGPL-2.1",
     "authors": [
         {
             "name": "Carlos Morales",
